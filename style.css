@@ -44,25 +44,34 @@ body{
 .apresentacao__links{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
 
+}
+.apresentacao__links__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    size:24px;
 }
 img{
     width: 400px;
 }
 .apresentacao__links__link {
     display: block;
-    width: 280px;
+    width: 378px;
     padding: 21.5px 0;
-    background-color: #5c4b3f;
-    border: 1px solid #5c4b3f;
+    /* background-color: #5c4b3f; */
+    border: 2px groove #5c4b3f;
     color: #db7329;
     text-decoration: none;
-    border-radius: 16px;
+    /* border-radius: 16px; */
+    border-radius: 8px;
     text-align: center;
     line-height: 50px;
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 600; 
     
 }
 
